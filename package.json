@@ -1,0 +1,23 @@
+{
+  "name": "dual-cat-clicker-app",
+  "version": "1.0.0",
+  "description": "Dev tools for app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TodMcChesney/dual-cat-clicker-app.git"
+  },
+  "author": "Tod McChesney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TodMcChesney/dual-cat-clicker-app/issues"
+  },
+  "homepage": "https://github.com/TodMcChesney/dual-cat-clicker-app#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1"
+  }
+}
