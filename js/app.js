@@ -28,3 +28,6 @@ Cat.prototype.renderHTML = function() {
 
 var cutie = new Cat('Cutie', 'img/cat-1.jpg', 'cat-1');
 cutie.renderHTML();
+
+var sneaky = new Cat('Sneaky', 'img/cat-2.jpg', 'cat-2');
+sneaky.renderHTML();
