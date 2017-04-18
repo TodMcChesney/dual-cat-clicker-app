@@ -26,8 +26,21 @@ Cat.prototype.renderHTML = function() {
     catDiv.appendChild(h3);
 };
 
+Cat.prototype.clickCounter = function () {
+    var catImage = document.getElementById(this.name);
+    var counter = document.getElementById(this.counterID);
+    var numClicks = 0;
+
+    catImage.addEventListener('click', function() {
+        numClicks += 1;
+        counter.textContent = 'Number of Clicks: ' + numClicks;
+    });
+};
+
 var cutie = new Cat('Cutie', 'img/cat-1.jpg', 'cat-1');
 cutie.renderHTML();
+cutie.clickCounter();
 
 var sneaky = new Cat('Sneaky', 'img/cat-2.jpg', 'cat-2');
 sneaky.renderHTML();
+sneaky.clickCounter();
