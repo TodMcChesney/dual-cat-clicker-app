@@ -16,7 +16,7 @@ gulp.task('browserSync', () =>
 // Default gulp task runs browserSync and watches for changes
 gulp.task('default', ['browserSync'], () => {
     gulp.watch('js/*.js', browserSync.reload);
-    gulp.watch('css/style.css', browserSync.reload);
+    gulp.watch('css/styles.css', browserSync.reload);
     gulp.watch('index.html', browserSync.reload);
-    gulp.watch('images/*.png', browserSync.reload);
+    gulp.watch('img/*.png', browserSync.reload);
 });
