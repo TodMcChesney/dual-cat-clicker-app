@@ -18,5 +18,5 @@ gulp.task('default', ['browserSync'], () => {
     gulp.watch('js/*.js', browserSync.reload);
     gulp.watch('css/styles.css', browserSync.reload);
     gulp.watch('index.html', browserSync.reload);
-    gulp.watch('img/*.png', browserSync.reload);
+    gulp.watch('img/*.jpg', browserSync.reload);
 });
